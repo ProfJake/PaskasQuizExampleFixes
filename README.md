@@ -8,4 +8,5 @@ Installation Instructions:
 2)cd into directory via console
 3)Install Modules - npm install mongodb express
 4)In console run - node app.js
-5)Select quiz topic and then difficulty
+5)Connect to localhost:3000, port is 3000
+6)Select quiz topic and then difficulty
