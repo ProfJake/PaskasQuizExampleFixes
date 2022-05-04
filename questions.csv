@@ -1,0 +1,76 @@
+_id,category,correctAnswer,difficulty,possibleAnswers,question
+6263397289c026892f5d6824,Sports,Los Angeles Rams,easy,"[""New York Jets"",""Los Angeles Rams"",""Las Vegas Raiders"",""Buffalo Bills""]",Who won Super Bowl LVI?
+62633a2389c026892f5d6825,Sports,Lacrosse,medium,"[""Basketball"",""Soccer"",""Hockey"",""Lacrosse""]",What is the national sport of Canada?
+62645d6489c026892f5d6826,Sports,Leprechaun,easy,"[""Leprechaun"",""Bull"",""Lizard"",""Ben Affleck""]",What is the Mascot of the Boston Celtics?
+62645e3089c026892f5d6827,Sports,4,easy,"[""0"",""4"",""7"",""3""]",How many World Cups have the US Womens National Soccer team won?
+62645e7689c026892f5d6828,Sports,4,easy,"[""2"",""1"",""7"",""4""]",The Olympics are held every __ years?
+62645e9a89c026892f5d6829,Sports,6,easy,"[""2"",""1"",""6"",""4""]",In football how many points is a touchdown?
+62645f1589c026892f5d682a,Sports,Hat Trick,medium,"[""Leg Play"",""Hat Trick"",""Necklace Joke"",""Sock Game""]",What is it called in soccer when a single player scores 3 goals in the same match?
+6264600c89c026892f5d682b,Sports,National Basketball Association,medium,"[""National Baseball Association"",""No Balls Allowed"",""No Boys Association"",""National Basketball Association""]",What does NBA stand for?
+6264605e89c026892f5d682c,Sports,26.2,medium,"[""13"",""36.5"",""26.2"",""24.2""]",How many miles are a marathon?
+6264609c89c026892f5d682d,Sports,Bike,medium,"[""Swim"",""Run"",""Bike"",""Power Walk""]",What do kind of race is the Tour de France?
+6264610a89c026892f5d682e,Sports,28,hard,"[""28"",""31"",""39"",""56""]",How many sports were included in the 2008 Summer Olympics?
+626463f489c026892f5d682f,Sports,1990,hard,"[""1958"",""1990"",""1985"",""2002""]",In what year were women allowed to complete in the Olympics?
+6264643a89c026892f5d6830,Sports,Golf,hard,"[""Cricket"",""Badmitten"",""Golf"",""Football""]",What is the only sport that has been played on the Moon?
+6264649789c026892f5d6831,Sports,29 min,hard,"[""2 Hour"",""44 min"",""1 Hour"",""29 min""]",How long was the longest recorded tennis match?
+626464d589c026892f5d6832,Sports,1,hard,"[""2"",""2.5"",""0.5"",""1""]",How much does an NFL regulation football weigh in pounds?
+626465ad89c026892f5d6833,Math,4,easy,"[""2"",""1"",""3"",""4""]",2 + 2
+626465cf89c026892f5d6834,Math,6,easy,"[""6"",""2"",""3"",""5""]",3 x 2
+626465e489c026892f5d6835,Math,2,easy,"[""6"",""2"",""3"",""5""]",5-Oct
+6264660289c026892f5d6836,Math,13,easy,"[""13"",""10"",""3"",""12""]",4 + 9
+6264661a89c026892f5d6837,Math,49,easy,"[""14"",""28"",""49"",""48""]",7 x 7
+6264664389c026892f5d6838,Math,64,medium,"[""16"",""24"",""64"",""0""]",8^2
+6264914a89c026892f5d6839,Math,18,medium,"[""45"",""54"",""18"",""16""]",900 / 50
+6264917b89c026892f5d683a,Math,7200,medium,"[""7200"",""2400"",""6000"",""7400""]",1200 x 6
+6264919f89c026892f5d683b,Math,51,medium,"[""50"",""204"",""51"",""52""]",102 / 2
+626491c489c026892f5d683c,Math,64,medium,"[""64"",""12"",""20"",""60""]",4^3
+6264920189c026892f5d683d,Math,2,hard,"[""2"",""3"",""2.5"",""1""]",Solve for x: 50x + 10 = 110
+6264924a89c026892f5d683e,Math,7,hard,"[""7"",""5"",""6"",""4""]",Solve for x: -3 + 2x = 11
+6264927589c026892f5d683f,Math,-4,hard,"[""-4"",""2.5"",""3.5"",""4""]",Solve for x: 4x + 6 = -10
+626492a389c026892f5d6840,Math,3,hard,"[""9"",""4"",""-2"",""3""]",Solve for x: x + 9 = 18 - 2x
+626492d189c026892f5d6841,Math,4,hard,"[""10"",""4"",""-2"",""6""]",Solve for x: 2x + 6 = 4x - 2
+6264938289c026892f5d6842,TV Shows,Breaking Bad,easy,"[""Mad Men"",""Friends"",""The Walking Dead"",""Breaking Bad""]",What show is the character Walter White from?
+626493c989c026892f5d6843,TV Shows,Friends,easy,"[""Mad Men"",""Friends"",""The Walking Dead"",""Breaking Bad""]",What show is the line 'We were on a break!' from?
+6264971a89c026892f5d6844,TV Shows,Spongebob Squarepants,easy,"[""Paw Patrol"",""Friends"",""The Walking Dead"",""Spongebob Squarepants""]",What show has a yellow sponge living in a pinneapple?
+6264978189c026892f5d6845,TV Shows,Hannah Montana,easy,"[""Suite Life of Zach and Cody"",""Invader Zim"",""Hannah Montana"",""Spongebob Squarepants""]","What show was Miley Cyrus a star on, on Disney Channel?"
+6264980789c026892f5d6846,TV Shows,Phineas & Ferb,easy,"[""Suite Life of Zach and Cody"",""Phineas & Ferb"",""Hannah Montana"",""Pair of Kings""]",What Disney Channel show has two brothers creating crazy inventions?
+6264984f89c026892f5d6847,TV Shows,Friends,medium,"[""Seinfield"",""Friends"",""King of Queens"",""Everybody Loves Raymond""]",What show on TBS did Courtney Cox star in?
+626498a689c026892f5d6848,TV Shows,The Walking Dead,medium,"[""Mad Men"",""Breaking Bad"",""King of Queens"",""The Walking Dead""]",What show on AMC is about a group of people surviving the zombie apocalypse?
+626498ef89c026892f5d6849,TV Shows,2014,medium,"[""2010"",""2020"",""2014"",""2019""]",When did Arrested Development get picked up on Netflix to finish its last two seasons?
+626499b389c026892f5d684a,TV Shows,Kramer,medium,"[""Jerry"",""Newman"",""Kramer"",""George""]",What was the name of Michael Richards character on Seinfield?
+626499e089c026892f5d684b,TV Shows,George,medium,"[""Jerry"",""Newman"",""Kramer"",""George""]",What character exclaims 'There was shrinkage!' on Seinfield?
+62649a5689c026892f5d684c,TV Shows,The Boys,hard,"[""The Girls"",""The Men"",""The Boys"",""The Women""]",What show has a character which is essentially an evil Superman?
+62649a9989c026892f5d684d,TV Shows,Fezco,hard,"[""Nate"",""Cassie"",""Fezco"",""Maddy""]",Whats the name of Rue's dealer in Euphoria?
+62649b7d89c026892f5d684e,TV Shows,Chocolate,hard,"[""Cinnamon"",""Chocolate"",""Vanilla"",""Strawberry""]",What is the kind of Babka that Jerry and Elaine are so set on getting at the bakery in Seinfield?
+62649bdd89c026892f5d684f,TV Shows,Eggo Waffles,hard,"[""Imaginary Food"",""Mike's Hugs"",""Eggo Waffles"",""Hoppers Rules""]",What is Eleven's favorite food in Stranger Things?
+62649c7189c026892f5d6850,TV Shows,Victorious,hard,"[""Drake & Josh"",""iCarly"",""Victorious"",""Fairly Oddparents""]",What show did Ariana Grande appear in on Nickelodeon?
+6264a01789c026892f5d6851,Music,6,easy,"[""4"",""12"",""6"",""1""]",How many strings are on a guitar?
+6264a05389c026892f5d6852,Music,Pink Floyd,easy,"[""The Eagles"",""The Beatles"",""Pink Floyd"",""Nirvana""]",What band wrote the song 'Comfortably Numb'?
+6264a0a489c026892f5d6853,Music,Billy Joel,easy,"[""Billy Joel"",""Don Heneley"",""Cat Stevens"",""Dave Grohl""]",Which musician wrote 'Piano Man'?
+6264a0c589c026892f5d6854,Music,The Eagles,easy,"[""The Eagles"",""The Beatles"",""Pink Floyd"",""Nirvana""]",Which band wrote 'Take It Easy'?
+6264a12589c026892f5d6855,Music,Miley Cyrus,easy,"[""Selena Gomez"",""Miley Cyrus"",""Noah Cyrus"",""Lil Nas X""]",Who wrote 'Party In The USA'?
+6264a1a089c026892f5d6856,Music,American Beauty,medium,"[""From the Mars Hotel"",""Workingman's Dead"",""American Beauty"",""The Wall""]","What is the name of the 5th studio album of The Grateful Dead, which was released in 1970?"
+6264a1ff89c026892f5d6857,Music,Kelly Clarkson,medium,"[""Beyonce"",""Kelly Clarkson"",""Zendaya"",""Lady Gaga""]",Who was the first American Idol winner?
+6264a26189c026892f5d6858,Music,Holiday,medium,"[""Holiday"",""Heart of Glass"",""Material Girl"",""Like a Prayer""]",What was Madonna's first top 10 hit?
+6264a2c289c026892f5d6859,Music,Rob Zombie,medium,"[""Machine Gun Kelly"",""Rob Zombie"",""Tommy Lee"",""Billy Joel""]",What rock star moonlights as a horror movie writer/director?
+6264a30a89c026892f5d685a,Music,Detroit,medium,"[""LA"",""New York City"",""Detroit"",""Chicago""]",8 mile is named after a road in which city?
+6264a4fe89c026892f5d685b,Music,28,hard,"[""12"",""28"",""32"",""23""]",How many grammys does Beyonce have?
+6264a57489c026892f5d685c,Music,88,hard,"[""64"",""77"",""99"",""88""]",How many keys are on a piano?
+6264a5ed89c026892f5d685d,Music,Farrokh Bulsara,hard,"[""Pharah Barasara"",""Fred Flinstone"",""Farrokh Bulsara"",""Freddy Queen""]",What was Freddie Mercury's real name?
+6264a69989c026892f5d685e,Music,Eagles,hard,"[""Rolling Stones"",""Eagles"",""Steely Dan"",""The Band""]","In 'The Big Lebowski', The Dude can't stand which band?"
+6264a6d889c026892f5d685f,Music,Peter Gabriel,hard,"[""Peter Gabriel"",""Don Heneley"",""Cat Stevens"",""Dave Grohl""]",Who was the lead singer of Genesis before Phil Collins?
+6264b51489c026892f5d6860,American History,Treaty of Versailles,easy,"[""Treaty of Versailles"",""Treaty of Paris"",""Berlin Treaty"",""Treaty of England""]",What is the name of the treaty that ended WWI?
+6264b56089c026892f5d6861,American History,13,easy,"[""10"",""14"",""13"",""9""]",How many original British Colonies existed in America?
+6264b5a089c026892f5d6862,American History,George Washington,easy,"[""Thomas Jefferson"",""John Hancock"",""Barack Obama"",""George Washington""]",Who was the first president of the United States?
+6264b5ec89c026892f5d6863,American History,Delaware,easy,"[""Delaware"",""New York"",""Maryland"",""New Jersey""]",What was the first state in the USA?
+6264b62689c026892f5d6864,American History,1862,easy,"[""1776"",""1880"",""1862"",""1812""]",When was the first US dollar made?
+6264b64689c026892f5d6865,American History,1865,medium,"[""1776"",""1880"",""1865"",""1812""]",What year did the Civil War end?
+6264b6ca89c026892f5d6866,American History,7-Dec-41,medium,"[""Jan 25, 1940"",""Dec 7, 1940"",""Dec 7, 1941"",""Jan 25, 1941""]",What is the date that Japan attacked Pearl Harbor?
+6264b70089c026892f5d6867,American History,Navy,medium,"[""Navy"",""Army"",""Marines"",""Air Force""]",What branch of the military did JFK serve in?
+6264b78189c026892f5d6868,American History,Neil Armstrong,medium,"[""Buzz Aldrin"",""Neil Armstrong"",""Neil Diamond"",""Buzz Lightyear""]",Who was the first American man on the moon?
+6264b7d389c026892f5d6869,American History,Rosa Parks,medium,"[""MLK"",""Rosa Parks"",""JFK"",""Jackie Kennedy""]","Who refused to give up their bus seat, sparking the Civil Rights Protest?"
+6264b83289c026892f5d686a,American History,WWI,hard,"[""American Revolution"",""Korean War"",""WWI"",""WWII""]",What war was known as 'The War to End All Wars'?
+6264b87389c026892f5d686b,American History,Lee Harvey Oswald,hard,"[""The Mob"",""The CIA"",""Lee Harvey Oswald"",""Illuminati""]",Who assassinated JFK?
+6264b8e389c026892f5d686c,American History,Churchill,hard,"[""Stalin"",""Churchill"",""Wilson"",""Hitler""]",Which leader played a prominent role in both World Wars?
+6264b93f89c026892f5d686d,American History,12,hard,"[""9"",""11"",""12"",""18""]",How old was the youngest American serviceman on record in WWII?
+6264b99689c026892f5d686e,American History,All of the Above,hard,"[""Plastic Surgery"",""Poison Gas"",""Blood Banks"",""All of the Above""]",Which of the following was developed during WWI?
