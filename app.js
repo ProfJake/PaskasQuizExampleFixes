@@ -13,8 +13,11 @@ var qString = require("querystring");
 const { response } = require('express');
 let app = express();
 var ObjectID = require('mongodb').ObjectId;
-
+//Levy additions for data handling
+var bp = require('body-parser');
+const { db } = require('../CryptoTracker/models/cryptoSchema');
 var database;
+app.use(bp.urlencoded({extended: true}));
 
 
 
@@ -30,8 +33,32 @@ app.get('/', function (req, res){
 })
 
 //Sports
-app.get('/sports', function (req, res){
-    res.end('<html><h1>Welcome To The Quiz App!</h1><h2>Topic: SPORTS</h2><h3>Select a difficulty:</h3><body><br><br><a href="/sports/easy">Easy</a>&emsp;&emsp;<a href="/sports/medium">Medium</a>&emsp;&emsp;<a href="/sports/hard">Hard</a></body></html>');
+
+app.get('/Allsports', async function (req, res){
+    let page ='<html><h1>Welcome To The Quiz App!</h1><h2>' +
+    'Topic: SPORTS</h2><h3>Select a difficulty:</h3><body><br><br>'
+    let data = []
+    let count = 1
+    let quests = dbManager.get().collection("questions")
+    try {
+    let cursor = await quests.find({category: "sports"});
+     await cursor.forEach((item)=>{
+        page += `<bold>Question ${count}: ${item.question}</bold><br>`
+        page += `<italic>A:  ${item.possibleAnswers[0]}</italic><br>`
+        page += `<italic>B:  ${item.possibleAnswers[1]}</italic><br>`
+        page += `<italic>C:  ${item.possibleAnswers[2]}</italic><br>`
+        page += `<italic>D:  ${item.possibleAnswers[3]}</italic><br>`
+        page += `<italic>E:  ${item.possibleAnswers[4]}</italic><br>`
+        page += "<br>"
+     })
+     page +='<a href="/sports/medium">Medium</a>&emsp;&emsp;<a href="/sports/hard">Hard</a></body></html>';
+     res.send(page)
+    } catch (err){
+        console.log(err)
+    }
+
+    
+    
 })
 
 //Math
@@ -61,17 +88,24 @@ app.get('/usahistory', function (req, res){
 //Unfinished because do not how to select only precise parts of collection documents
 
 
-//Sports EASY
-app.get('/sports/easy', function (req, res){
+//Question Submission
+app.get('/questionSubmit', function (req, res){
     //Presents the section Sports - Easy
     res.send('<html><h1>Welcome To The Quiz App!</h1>'+
     '<body> <form method="post">'+
-    '<h2>Sports - Easy</h2>'+
-    'Question 1 <input name="answer[0]"><br>'+
-    'Question 2 <input name="answer[1]"><br>' +
-    'Question 3 <input name="answer[2]"><br>'+
-    'Question 4 <input name="answer[3]"><br>' +
-    'Question 5 <input name="answer[4]"><br>' +
+    'CATEGORY: <input name="category"><br>' +
+    'DIFFICULTY: <select name="difficulty">'+
+    '<option>easy</option>' +
+    '<option>medium</option>' +
+    '<option>hard</option>' +
+    '</select><br>' +
+    'QUESTION: <input name="question"><br>' + //you were missing the question
+    'Answer 0 <input name="answer0"><br>'+
+    'Answer 1 <input name="answer1"><br>' +
+    'Answer 2 <input name="answer2"><br>'+
+    'Answer 3 <input name="answer3"><br>' +
+    'Answer 4 <input name="answer4"><br>' +
+    'Correct Answer: <input name="correctAnswer"><br>' +
     '<input type="submit" value="Submit">' +
     '<input type="reset" value="Clear">'+
     '</form>');
@@ -237,28 +271,19 @@ function moveOn(postData){
     }
 
     return proceed;
-}
-app.post('/sports/easy', function(req, res){
-    postData = '';
-    req.on('data', (data) =>{
-	postData+=data;
-    });
-    req.on('end', async ()=>{
-	//Break into functions
-	console.log(postData);
-    if (moveOn(postData)){
-	    var prop= postParams.prop;
-	    var val = postParams.value;
-        let searchDoc = { [prop] : val };
-
-        res.send(dbManager.get().collection("questions").find(searchDoc, {projection: { _id: 0 , category: 0, question: 1, possibleAnswers: 0, correctAnswer: 0, difficulty: 0}}));
-
-	} else{ //can't move on
-	    res.status(400).send(page);
-	}
-    });
+}*/
+app.post('/questionSubmit', express.urlencoded({extended:false}), async function(req, res){
+    //the reason your inserts did not work is because your array needs to have an array of objects not just regular data.  
+    //EVERYTHING in Mongo is an object/document, there is no "regular data"
+   let questionToInsert = {category: req.body.category, question: req.body.question, possibleAnswers: [ req.body.answer0,  req.body.answer1, req.body.answer2,  req.body.answer3,req.body.answer4 ], correctAnswer: req.body.correctAnswer, difficulty: req.body.difficulty}
+   try {
+   await dbManager.get().collection("questions").insertOne(questionToInsert)
+   } catch (error){
+       console.log(error)
+   }
+    res.redirect("/")
 });
-*/
+
 
 
 
